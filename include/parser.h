@@ -14,5 +14,4 @@ int  contains_blocked_word(const char *text);
 int  parser_check_policy(const char *text);
 void parser_apply_policy(char *text);
 void parser_debug_dump(const char *stage, const char *text);
-
 #endif
