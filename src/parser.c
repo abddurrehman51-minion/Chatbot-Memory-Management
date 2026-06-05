@@ -267,8 +267,7 @@ int contains_blocked_word(const char *text)
             return 1;
         }
     }
-
-    return 0;
+ return 0;
 }
 
 int parser_check_policy(const char *text)
