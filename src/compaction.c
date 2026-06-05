@@ -4,7 +4,6 @@
 
 
 Message **compaction_build_array(History *h){
-
     if (h == NULL)
     {
         return NULL;
