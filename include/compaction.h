@@ -11,5 +11,4 @@ int compaction_replace_storage(History *h,
                                Node *list);
 
 int compaction_run(History *h);
-
 #endif
