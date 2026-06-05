@@ -45,7 +45,6 @@ int read_choice(void){
     return integer;
 }
 
-
 int main(void){
     History h;
     history_init(&h);
