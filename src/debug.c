@@ -17,7 +17,6 @@ void debug_print_array(History *h){
             printf("[%d] -> ID=%d\n",i,h->array[i]->id);
         }
     }
-
 }
 
 
