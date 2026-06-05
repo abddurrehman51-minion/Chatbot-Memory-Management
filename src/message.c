@@ -59,7 +59,6 @@ void msg_print(const Message *msg){
     printf("Message text: %s", msg->text);
 }
 
-
 int msg_contains(const Message *msg, const char *word){
     if (msg == NULL)
     {
