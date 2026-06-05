@@ -9,6 +9,5 @@ void compaction_free_old_storage(History *h);
 int compaction_replace_storage(History *h,
                                Message **arr,
                                Node *list);
-
 int compaction_run(History *h);
 #endif
