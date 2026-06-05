@@ -9,8 +9,7 @@
 void history_init(History *h){
     if (h == NULL)
     {
-        return;
-    }
+        return;}
     h->capacity = 4;
     h->count = 0;
     h->head = NULL;
